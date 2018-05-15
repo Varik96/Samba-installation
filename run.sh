@@ -4,7 +4,7 @@ sudo apt-get update
 
 sudo apt-get install -y salt-minion
 
-git clone https://github.com/terokarvinen/sirotin
+git clone https://github.com/Varik96/Samba-installation.git
 
 cd Samba-installation/
 
