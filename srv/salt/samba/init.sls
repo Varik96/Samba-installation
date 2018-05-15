@@ -3,7 +3,7 @@ samba:
 
 /etc/samba/smb.conf:
   file.managed:
-    - source: salt://samba
+    - source: salt://samba/smb.conf
 
 smbd:  
   service.running:
