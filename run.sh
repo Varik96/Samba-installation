@@ -8,4 +8,4 @@ git clone https://github.com/Varik96/Samba-installation.git
 
 cd Samba-installation/
 
-./highstate.sh
+bash highstate.sh
