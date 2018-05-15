@@ -2,7 +2,7 @@ setxkbmap fi
 
 sudo apt-get update
 
-sudo apt-get install -y salt-minion
+sudo apt-get install -y git salt-minion
 
 git clone https://github.com/Varik96/Samba-installation.git
 
