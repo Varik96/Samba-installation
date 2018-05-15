@@ -1,6 +1,10 @@
 samba:
   pkg.installed
-  
+
+/etc/samba/smb.conf:
+  file.managed:
+    - source: salt://samba
+
 smbd:  
   service.running:
     - enable: True
@@ -16,8 +20,3 @@ nmbd:
       - pkg: samba
     - watch:
       - file: /etc/samba/smb.conf
-  
-
-/etc/samba/smb.conf:
-  file.managed:
-    - source: salt://samba
